@@ -5,7 +5,7 @@
   "main": "src/listen.js",
   "scripts": {
     "test": "npm run test",
-    "start": "node src/listen.js"
+    "server": "node src/listen.js"
   },
   "repository": {
     "type": "git",
