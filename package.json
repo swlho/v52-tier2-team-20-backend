@@ -1,0 +1,22 @@
+{
+  "name": "v52-tier2-team-20-backend",
+  "version": "1.0.0",
+  "description": "v52-tier2-team-20-backend",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swlho/v52-tier2-team-20-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swlho/v52-tier2-team-20-backend/issues"
+  },
+  "homepage": "https://github.com/swlho/v52-tier2-team-20-backend#readme",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
