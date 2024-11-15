@@ -2,9 +2,10 @@
   "name": "v52-tier2-team-20-backend",
   "version": "1.0.0",
   "description": "v52-tier2-team-20-backend",
-  "main": "app.js",
+  "main": "src/listen.js",
   "scripts": {
-    "test": "npm run test"
+    "test": "npm run test",
+    "start": "node src/listen.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,12 @@
   },
   "homepage": "https://github.com/swlho/v52-tier2-team-20-backend#readme",
   "dependencies": {
+    "dotenv": "^16.4.5",
     "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.9.0",
+    "typescript": "^5.6.3"
   }
 }
