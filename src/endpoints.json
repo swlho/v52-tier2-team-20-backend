@@ -1,0 +1,27 @@
+{
+    "GET /api/v1": {
+        "description": "Get all available API endpoints"
+    },
+    "GET /api/v1/resident/request": {
+        "description": "Get all residents' requests"
+    },
+    "GET /api/v1/resident/request/:requestId": {
+        "description": "Get resident request by requestId"
+    },
+    "POST /api/v1/resident/request": {
+        "description": "Post a new resident request",
+        "exampleResponse" : {
+            "status": 201,
+            "message": "New request successfully submitted",
+            "data": {
+              "id": "UUID",
+              "name": "String",
+              "email": "String",
+              "phoneNumber": "String",
+              "address": "String",
+              "preferred_timeslot": "String",
+              "request_status": "String"
+            }
+          }
+    }
+}
