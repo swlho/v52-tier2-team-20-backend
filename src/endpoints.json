@@ -10,6 +10,14 @@
     },
     "POST /api/v1/resident/request": {
         "description": "Post a new resident request",
+        "postBodySchema" : {
+            "name" :"String",
+            "email" : "String",
+            "phoneNumber" : "String",
+            "address" : "String",
+            "preferred_timeslot" : "String",
+            "request_status": "String"
+        },
         "exampleResponse" : {
             "status": 201,
             "message": "New request successfully submitted",
