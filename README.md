@@ -6,8 +6,8 @@
 2. Run ``npm install``
 3. Create a .env file in the root folder and populate it with the following key/values:
 
-``PORT=3000
-DATABASE_URL="mongodb+srv://v52team20:**[PASSWORD]**@cluster0.en5nt.mongodb.net/**[DATABASE_NAME]**?&retryWrites=true&w=majority&appName=Cluster0"``
+``PORT=3000`` <br>
+``DATABASE_URL="mongodb+srv://v52team20:**[PASSWORD]**@cluster0.en5nt.mongodb.net/**[DATABASE_NAME]**?&retryWrites=true&w=majority&appName=Cluster0"``
 
 **For the password and database name, refer to the Discord chat or message me**
 
